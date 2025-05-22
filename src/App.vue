@@ -12,9 +12,11 @@
   <HtmlBinding />
   <ClassBinding />
   <PropsDataPass />
+  <ChildParentData />
 </template>
 
 <script>
+
 
 // import HelloWorld from './components/HelloWorld.vue'
 // import Home from './components/Home.vue'
@@ -27,8 +29,8 @@
 // import ChildReuse from './components/ChildReuse.vue';
 // import HtmlBinding from './components/HtmlBinding.vue';
 // import ClassBinding from './ClassBinding.vue';
-import PropsDataPass from './components/PropsDataPass.vue';
-
+// import PropsDataPass from './components/PropsDataPass.vue';
+import ChildParentData from './components/ChildParentData.vue';
 
 
 
@@ -46,7 +48,8 @@ export default {
     // ChildReuse
     // HtmlBinding
     // ClassBinding
-    PropsDataPass
+    // PropsDataPass
+    ChildParentData
   }
 }
 </script>
