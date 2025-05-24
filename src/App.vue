@@ -13,6 +13,7 @@
   <ClassBinding />
   <PropsDataPass />
   <ChildParentData />
+  <DynamicComponent />
 </template>
 
 <script>
@@ -30,8 +31,8 @@
 // import HtmlBinding from './components/HtmlBinding.vue';
 // import ClassBinding from './ClassBinding.vue';
 // import PropsDataPass from './components/PropsDataPass.vue';
-import ChildParentData from './components/ChildParentData.vue';
-
+// import ChildParentData from './components/ChildParentData.vue';
+import DynamicComponent from './components/dynamicComponent/DynamicComponent.vue';
 
 
 export default {
@@ -49,7 +50,8 @@ export default {
     // HtmlBinding
     // ClassBinding
     // PropsDataPass
-    ChildParentData
+    // ChildParentData
+    DynamicComponent
   }
 }
 </script>
