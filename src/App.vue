@@ -14,6 +14,7 @@
   <PropsDataPass />
   <ChildParentData />
   <DynamicComponent />
+  <TeleportComponent />
 </template>
 
 <script>
@@ -32,7 +33,9 @@
 // import ClassBinding from './ClassBinding.vue';
 // import PropsDataPass from './components/PropsDataPass.vue';
 // import ChildParentData from './components/ChildParentData.vue';
-import DynamicComponent from './components/dynamicComponent/DynamicComponent.vue';
+// import DynamicComponent from './components/dynamicComponent/DynamicComponent.vue';
+import TeleportComponent from './components/teleportComponent/TeleportComponent.vue';
+
 
 
 export default {
@@ -51,7 +54,8 @@ export default {
     // ClassBinding
     // PropsDataPass
     // ChildParentData
-    DynamicComponent
+    // DynamicComponent
+    TeleportComponent
   }
 }
 </script>
