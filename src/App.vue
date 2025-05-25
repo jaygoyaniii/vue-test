@@ -28,13 +28,13 @@
 // import ParentComponent from './components/ParentComponent.vue';
 // import ChildComponent from './components/ChildComponent.vue';
 // import ParentReuse from './components/ParentReuse.vue';
-// import ChildReuse from './components/ChildReuse.vue';
+// import ChildReuse from './components/Chil  dReuse.vue';
 // import HtmlBinding from './components/HtmlBinding.vue';
 // import ClassBinding from './ClassBinding.vue';
 // import PropsDataPass from './components/PropsDataPass.vue';
 // import ChildParentData from './components/ChildParentData.vue';
 // import DynamicComponent from './components/dynamicComponent/DynamicComponent.vue';
-import TeleportComponent from './components/teleportComponent/TeleportComponent.vue';
+// import TeleportComponent from './components/teleportComponent/TeleportComponent.vue';
 
 
 
@@ -54,8 +54,8 @@ export default {
     // ClassBinding
     // PropsDataPass
     // ChildParentData
-    // DynamicComponent
-    TeleportComponent
+    // DynamicComponent       
+    // TeleportComponent                             
   }
 }
 </script>
